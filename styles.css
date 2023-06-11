@@ -788,5 +788,58 @@ h3 {
     .safety_text-block {
         order: 2;
     }
+
+    .safety__sector-content-1 .safety_info-title {
+        font-size: 25px;
+    }
+
+    .safety__sector-content-1 h2 {
+        font-size: 42px;
+    }
+
+    .safety__sector-content-1 {
+        margin-bottom: 30px;
+    }
+
+    .safety__sector-content-5 .safety_preview-block img:first-child {
+        margin-left: 15px;
+    }
+
+    .mark-h3, .aware__item .item__title, .safety__sector-content-3 .safety-holder h3, .safety__sector-content-6 h3 {
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .slider__item {
+        padding: 16px;
+    }
+
+    .safety__sector-content-4 h3 {
+        margin-bottom: 6px;
+    }
+
+    .safety_text-block {
+        padding: 26px 17px 20px;
+    }
+
+    .safety__sector-content-8 {
+        margin-top: 40px;
+    }
+
+    .hide-photo__shield {
+        padding: 12px;
+    }
+
+    .safety_content-description {
+        padding: 0 2px;
+    }
+
+    .safety__sector-content-9 {
+        padding-bottom: 38px;
+    }
+
+    .safety__sector-content-10 .safety_content-block {
+        margin-right: 22px;
+    }
 }
 
