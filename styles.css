@@ -294,8 +294,6 @@ h3 {
 
 
 
-
-
 /* block 4 */
 
 .safety__sector-content-4 {
@@ -609,7 +607,81 @@ h3 {
 }
 
 @media screen and (max-width: 1025px) {
+    .section {
+        padding-top: 18px;
+    }
 
+    .safety__sector-content-1 {
+        margin-bottom: 20px;
+    }
+
+    .safety__sector-content-1 h2 {
+        font-size: 55px;
+    }
+
+    .safety__sector-content-1 .safety_info-title {
+        font-size: 40px;
+        margin: 0 0 20px;
+    }
+
+    .safety__sector-content-1 p {
+        font-size: 22px;
+    }
+
+    .block-title,
+    .item__title,
+    .safety__sector-content-3 .safety-holder h2,
+    .safety__sector-content-4 h3,
+    h3,
+    .safety__sector-content-6 .title {
+        font-size: 30px;
+    }
+
+    .safety__sector-content-2 p {
+        margin-bottom: 20px;
+    }
+
+    .aware__item .item__description,
+    p,
+    .safety__sector-content-9 li,
+    .safety__sector-content-11 li {
+        font-size: 16px;
+    }
+
+    .mark-h3,
+    .aware__item .item__title,
+    .safety__sector-content-3 .safety-holder h3 {
+        font-size: 22px;
+        margin-top: 0;
+    }
+
+    .aware__item .item__title {
+        margin-bottom: 10px;
+    }
+
+    .slider__items p {
+        margin-bottom: 12px;
+    }
+
+    .slider_date {
+        font-size: 16px;
+    }
+
+    .slider__item {
+        height: 760px;
+    }
+
+    .grid-item {
+        font-size: 20px;
+    }
+
+    .safety__sector-content-4 {
+        padding-bottom: 40px;
+    }
+
+    .safety__sector-content-5 h3 {
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 560px) {
