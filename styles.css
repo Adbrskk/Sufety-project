@@ -1,0 +1,334 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+    text-decoration: revert;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+.d-flex {
+    display: flex;
+}
+
+.article_wordpress .container {
+    width: 1230px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+
+}
+
+.safety__sector-content-1 {
+    margin-bottom: 100px;
+}
+
+.safety__sector-content-1 h2 {
+    font-weight: 600;
+    font-size: 68.785px;
+    line-height: 110%;
+}
+
+.safety__sector-content-1 h3 {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 160%;
+    padding-bottom: 47px;
+}
+
+.safety__sector-content-1 p {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+}
+
+.safety_content-block p:nth-of-type(1) {
+    padding-bottom: 23px;
+}
+
+.safety_preview-block {
+    max-width: 400px;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.bleu {
+    color: #00A2E8;
+}
+
+.safety_btn-scroll {
+    display: block;
+    margin-top: 70px;
+}
+
+/* block 2 */
+
+.safety__sector-content-2 {
+    margin-bottom: 125px;
+}
+
+.block-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+/* block 3 */
+
+.safety__sector-content-3 {
+    margin-bottom: 115px;
+}
+
+.safety__sector-content-3 .safety-holder h3 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+}
+
+/* block 4 */
+
+.safety__grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    align-items: center;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+}
+
+.item1,
+.item11 {
+    background: #F4F4F4;
+}
+
+.item2,
+.item7,
+.item9 {
+    background: #FCBFBF;
+}
+
+.item3,
+.item5 {
+    background: #C8FFC7;
+}
+
+.item4,
+.item6 {
+    background: #FFEAA1;
+}
+
+.item8,
+.item10 {
+    background: #ACBFFF;
+}
+
+.item12 {
+    padding: 0;
+    border: none;
+}
+
+/* block 5 */
+
+.safety__sector-content-5 p {
+    margin: 13px 0 35px 0;
+}
+
+.big-font {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 120%;
+    color: #00A2E8;
+    margin: 30px 0;
+}
+
+/* block 6 */
+
+.safety__sector-content-6 {
+    margin-bottom: 70px;
+}
+
+.safety__sector-content-6 h3 {
+    margin-bottom: 22px;
+}
+
+.safety_text-block {
+    background: #FBF6F3;
+    border: 2px solid #000000;
+    box-shadow: 5px 5px 0 #000000;
+    border-radius: 20px;
+    padding: 45px 55px 55px;
+}
+
+.safety_text-block p {
+    margin: 22px 0;
+}
+
+/* block 7 */
+
+.safety__sector-content-7 .safety_text-block {
+    background: #FBF6F3;
+    border: 1.99296px solid #000000;
+    box-shadow: 4.98241px 4.98241px 0 #000000;
+    border-radius: 19.9296px;
+    margin-right: 42px;
+    width: 50%;
+}
+
+.safety__sector-content-7 p {
+    margin: 23px 0 32px;
+}
+
+/* block 8 */
+
+.safety__sector-content-8 {
+    margin-bottom: 65px;
+}
+
+.safety-title {
+    margin-bottom: 20px;
+}
+
+.safety_info-title {
+    margin: 40px 0 15px;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 160%;
+}
+
+.safety_content-block h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 110%;
+}
+
+/* block 9 */
+
+.safety__sector-content-9 {
+    background: #F6F1EB;
+    border: 2px solid #000000;
+    box-shadow: 5px 5px 0 #000000;
+    border-radius: 20px;
+    padding: 60px;
+}
+
+.safety__sector-content-9 li {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.safety_content-description {
+    padding: 0 60px;
+}
+
+.safety__sector-content-9 p:nth-of-type(1) {
+    margin-bottom: 18px;
+}
+
+/* block 10 */
+.safety__sector-content-10 p {
+    margin: 24px;
+}
+
+.safety__sector-content-10 .safety_info {
+    margin-bottom: 64px;
+}
+
+/* block 11 */
+
+.safety__sector-content-11 {
+    background: #FBF6F3;
+    border: 2px solid #000000;
+    box-shadow: 5px 5px 0 #000000;
+    border-radius: 20px;
+    padding: 60px;
+}
+
+.safety__sector-content-11 li {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
