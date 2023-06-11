@@ -74,6 +74,16 @@ select {
     display: flex;
 }
 
+.mark-h3 {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.sufety__check-mark {
+    margin-right: 22px;
+}
+
 .article_wordpress .container {
     width: 1512px;
     margin: 0 auto;
@@ -162,6 +172,35 @@ p {
     font-size: 24px;
     line-height: 120%;
 }
+
+.aware__item {
+    padding: 42px;
+    background: #F6F1EB;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.aware__item .item__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 120%;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    margin-bottom: 21px;
+}
+
+.aware__icon {
+    margin-right: 22px;
+}
+
+.aware__item .item__description {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
+
 
 /* block 3 */
 
