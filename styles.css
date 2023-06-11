@@ -282,6 +282,7 @@ h3 {
     height: 60px;
     border-radius: 50%;
     background: white;
+    z-index: 999;
 }
 
 .swiper {
@@ -292,6 +293,13 @@ h3 {
     display: none;
 }
 
+.swiper-button-prev {
+    left: -16px;
+}
+
+.swiper-button-next {
+    right: -16px;
+}
 
 
 /* block 4 */
