@@ -78,6 +78,7 @@ select {
     display: flex;
     align-items: center;
     margin-top: 25px;
+    font-size: 30px;
 }
 
 .sufety__check-mark {
@@ -125,7 +126,7 @@ h3 {
     line-height: 110%;
 }
 
-.safety__sector-content-1 h3 {
+.safety__sector-content-1  {
     font-weight: 600;
     font-size: 52px;
     line-height: 160%;
@@ -244,6 +245,10 @@ h3 {
     padding: 33px;
 }
 
+.slider_items:last-child .img-check {
+    margin-top: 26px;
+}
+
 .slider_date {
     font-weight: 600;
     font-size: 25px;
@@ -358,6 +363,7 @@ h3 {
 
 .safety__sector-content-6 h3 {
     margin-bottom: 22px;
+    font-size: 30px;
 }
 
 .safety_text-block {
@@ -391,18 +397,29 @@ h3 {
 
 .safety__sector-content-8 {
     margin-top: 120px;
-    padding-bottom: 65px;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     background: #FBF6F3;
+}
+
+.safety__sector-content-8 .safety_info {
+    margin-top: 45px;
+}
+
+.safety__sector-content-8 .safety_content-block {
+     margin-right: 75px;
+ }
+
+.safety__sector-content-8 .safety_content-block p {
+    margin-top: 14px;
 }
 
 .safety-title {
     margin-bottom: 20px;
 }
 
-.safety_info-title {
-    margin: 40px 0 15px;
+.safety__sector-content-1 .safety_info-title {
+    margin: 0 0 47px;
     font-weight: 600;
     font-size: 52px;
     line-height: 160%;
@@ -421,6 +438,12 @@ h3 {
     padding-bottom: 136px;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
+}
+
+.safety__sector-content-9 .safety-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 120%;
 }
 
 .hide-photo__shield {
