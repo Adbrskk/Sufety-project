@@ -864,5 +864,9 @@ h3 {
     .safety__sector-content-10 p {
         margin: 13px 0;
     }
+
+    .safety__sector-content-3 .safety-holder h2 {
+        font-size: 24px;
+    }
 }
 
