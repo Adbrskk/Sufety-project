@@ -714,6 +714,7 @@ h3 {
         margin-right: 0 !important;
         margin-bottom: 0 !important;
         width: 100% !important;
+        padding: 24px;
     }
 
     .aware__item + .aware__item {
@@ -811,6 +812,7 @@ h3 {
 
     .slider__item {
         padding: 16px;
+        height: 692px;
     }
 
     .safety__sector-content-4 h3 {
@@ -835,6 +837,7 @@ h3 {
 
     .safety__sector-content-9 {
         padding-bottom: 38px;
+        padding-top: 45px;
     }
 
     .safety__sector-content-10 .safety_content-block {
@@ -852,6 +855,14 @@ h3 {
         padding-bottom: 20px;
         border-bottom-left-radius: 36px;
         border-bottom-right-radius: 36px;
+    }
+
+    .safety__sector-content-8 .safety_content-block {
+        margin-right: 20px;
+    }
+
+    .safety__sector-content-10 p {
+        margin: 13px 0;
     }
 }
 
