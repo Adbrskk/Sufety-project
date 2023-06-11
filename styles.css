@@ -836,10 +836,27 @@ h3 {
 
     .safety__sector-content-9 {
         padding-bottom: 38px;
+        padding-top: 45px;
     }
 
     .safety__sector-content-10 .safety_content-block {
         margin-right: 22px;
+    }
+
+    .aware__item {
+        padding: 28px
+    }
+
+    .slider__item {
+        height: 692px;
+    }
+
+    .safety__sector-content-8 .safety_content-block {
+        margin-right: 20px;
+    }
+
+    .safety__sector-content-10 p {
+        margin: 13px 0;
     }
 }
 
