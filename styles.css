@@ -611,6 +611,14 @@ h3 {
         padding-top: 18px;
     }
 
+    .safety_preview-block {
+        min-width: 320px;
+    }
+
+    .safety__grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .safety__sector-content-1 {
         margin-bottom: 20px;
     }
@@ -687,7 +695,9 @@ h3 {
 @media screen and (max-width: 560px) {
     .safety__sector-content-1 > .safety_holder,
     .safety__sector-content-6 > .safety_holder,
-    .safety__sector-content-7 > .safety_holder {
+    .safety__sector-content-7 > .safety_holder,
+    .safety__sector-content-8 > .safety_info,
+    .safety__sector-content-10 > .safety_info {
         flex-wrap: wrap;
     }
 
@@ -710,14 +720,16 @@ h3 {
     }
 
     .safety__grid-container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .safety__sector-content-5 .safety_preview-block {
         float: none;
     }
 
-    .safety__sector-content-6 .safety_holder > div {
+    .safety__sector-content-6 .safety_holder > div,
+    .safety__sector-content-8 .safety_info > div,
+    .safety__sector-content-10 .safety_info > div {
         width: 100%;
     }
 
