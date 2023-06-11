@@ -137,10 +137,10 @@ h3 {
 }
 
 .safety_preview-block {
-    max-width: 400px;
+    min-width: 360px;
     justify-content: center;
     width: 100%;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .bleu {
