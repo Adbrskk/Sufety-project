@@ -451,6 +451,10 @@ h3 {
     margin-top: 14px;
 }
 
+.safety__sector-content-8 .safety_content-block p:nth-child(2) {
+    margin-bottom: 38px;
+}
+
 .safety-title {
     margin-bottom: 20px;
 }
