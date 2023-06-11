@@ -775,14 +775,13 @@ h3 {
         margin: 8px 0 12px;
     }
 
-
     .safety__sector-content-3 {
         padding-bottom: 36px;
     }
 
     .safety_content-block {
         order: 1;
-        margin-bottom: 20px;
+        padding-bottom: 20px;
     }
 
     .safety_text-block {
@@ -840,6 +839,19 @@ h3 {
 
     .safety__sector-content-10 .safety_content-block {
         margin-right: 22px;
+    }
+
+    .safety__sector-content-2,
+    .safety__sector-content-8,
+    .safety__sector-content-12 {
+        border-top-left-radius: 36px;
+        border-top-right-radius: 36px;
+    }
+
+    .safety__sector-content-4 {
+        padding-bottom: 20px;
+        border-bottom-left-radius: 36px;
+        border-bottom-right-radius: 36px;
     }
 }
 
