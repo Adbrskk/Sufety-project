@@ -158,7 +158,34 @@ p {
     font-weight: 600;
     font-size: 40px;
     line-height: 120%;
+    margin-bottom: 36px;
 }
+
+/* slider */
+
+.slider_item {
+    background: #F6F1EB;
+    border: 1.99296px solid #000000;
+    box-shadow: 4.98241px 4.98241px 0 #000000;
+    border-radius: 20px;
+    padding: 33px;
+}
+
+.slider_date {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 120%;
+    color: #00A2E8;
+    text-align: end;
+}
+
+
+
+
+
+
+
+
 
 /* block 4 */
 
