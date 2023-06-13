@@ -122,7 +122,10 @@ select {
 
 .sufety__check-mark {
     margin-right: 22px;
-    margin-top: 23px;
+}
+
+.slider__item .sufety__check-mark {
+    margin-top: 10px;
 }
 
 p {
